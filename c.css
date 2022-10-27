@@ -1,0 +1,46 @@
+body{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+header .container {
+    background-color: #FF7E4F;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+
+header .container p i{
+    color: black;
+    line-height: 45px;
+    margin-left: 15px;
+    font-size: 36px;
+    
+}
+
+.nd{
+    margin-left: -55px;
+}
+.nd ul {
+    list-style: none;
+    /* text-decoration: underline; */
+}
+.nd ul li{
+    display: flex;
+}
+.nd ul li a{
+    text-decoration: underline;
+    /* margin-left: 20px; */
+
+}
+.nd ul li div{
+    margin-left: 20px;
+}
+ul ul li img{
+    margin-top:3px;
+    margin-right: 15px;
+}
+img{
+    width: 200px;
+}

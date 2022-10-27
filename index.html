@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 . API ajax</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="c.css">
+    <script src="j.js"></script>
+</head>
+
+<body>
+    <div id="container-fluid">
+        <header>
+            <div class="container">
+
+                <h2>My News</h2>
+                <p type="button" id="nut" data-toggle="modal" data-target="#modelId">
+                    <i class="material-icons">search</i>
+                </p>
+
+            </div>
+        </header>
+        <section class="nd">
+            <div class="container" id="container">
+
+                <ul>
+                    <li>
+                        <img src="pj41.png">
+                        <div>
+                            <a href="#"><b>Tin Tức thế giới_ Ukraina bị tấn công hôm nay.</b></a>
+                            <p>I'm ok!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="pj41.png">
+                        <div>
+                            <a href="#"><b>Tin Tức thế giới. Tấn công đẫm máu tại Ukraine</b></a>
+                            <p>I'm ok!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="pj41.png">
+                        <div>
+                            <a href="#"><b>Tin Tức Trong Nước, giá xăng tăng kỷ lục</b></a>
+                            <p>I'm ok!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="pj41.png">
+                        <div>
+                            <a href="#"><b>Thời sự</b></a>
+                            <p>I'm ok!</p>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+
+
+        <!-- MODAL CODE -->
+
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Title search</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="alert-dismissible">
+                        Keyword: <input type="search" id="search1">
+                        <button type="button" id='search' onclick="mySearch()">Search</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('#exampleModal').on('show.bs.modal', event => {
+                var button = $(event.relatedTarget);
+                var modal = $(this);
+                // Use above variables to manipulate the DOM
+
+            });
+        </script>
+
+        <!--/ MODAL CODE -->
+
+        <div id="mode"></div>
+
+    </div>
+
+
+</body>
+
+</html>
